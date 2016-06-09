@@ -8,5 +8,10 @@
     "start": "node server/app.js"
   },
   "author": "Lukas, Mai, Oliver, Gini",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jQuery": "^1.7.4",
+    "jquery": "^2.2.4"
+  }
 }
