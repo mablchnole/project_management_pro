@@ -52,15 +52,17 @@ html+= "<br/><br/><button id='getEmpBtn' method='get'>Generate Employee</button>
 html += '</div>';
 
 $('body').append(html);
-
-
-
-
-
 });
-
 });
-
+// function getEmployee(){
+//     $.ajax({
+//         type: "GET",
+//         url: "../modules/create_emp"
+//         // success: function(data){
+//         //     checkProject(data);
+//         // }
+//     });
+// }
 
 //
 // Project Management Server Application

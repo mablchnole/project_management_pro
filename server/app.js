@@ -16,7 +16,11 @@ var server = app.listen(8080, 'localhost', function(){
 });
 app.get('/createEmp', function(req, res){
   var test = createEmp();
-  res.write(test);
+  res.send(test);
   res.end();
    //console.log(test);
+});
+app.get("/*", function(request,response){
+    var file = request.params[0] || "index.html";
+    response.sendFile(path.join(__dirname, "../public/", file));
 });
